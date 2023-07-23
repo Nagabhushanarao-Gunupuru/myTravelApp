@@ -1,0 +1,26 @@
+.listContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+  height: 60%;
+}
+.icon {
+  display: block;
+}
+
+.notFound {
+  color: white;
+  font-size: 40px;
+  margin-top: 200px;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 577px) {
+  .icon {
+    display: none;
+  }
+  .notFound {
+    margin-bottom: 200px;
+  }
+}
